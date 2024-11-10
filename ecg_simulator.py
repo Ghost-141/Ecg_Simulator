@@ -12,12 +12,11 @@ x = np.arange(0.01, 3.0, 0.0001)
 print("-------------Welcome to ECG Simulator----------------")
 
 # Prompt the user to select a disease type
-print("Select any disease from below:")
 print("1. Sinus Rhythm at 70 BPM")
 print("2. Sinus Rhythm at 78 BPM")
 print("3. Sinus Rhythm at 120 BPM")
 
-disease = input("Enter the number corresponding to the disease: ")
+disease = input("Enter the number corresponding to the disease you want to simulate: ")
 
 # Initialize parameters based on disease selection
 if disease == "1":
@@ -86,7 +85,7 @@ def init():
 skip_points = 20 
 
 def animate(i):
-    line.set_data(x[:i*skip_points], ecg[:i*skip_points])  # Update line with progressive data up to index i * skip_points
+    line.set_data(x[:i*skip_points], ecg[:i*skip_points])  
     return line,
 
 ani = FuncAnimation(
