@@ -10,11 +10,11 @@ This project presents a basic ECG Signal Simulator developed in Python, aimed at
 
 ## Purpose
 Simulating ECG signals can be highly beneficial for:
-- Understanding ECG signal morphology and its components.
+- Understanding distinct components of a ECG signal(P,QRS,S,T,U waves).
 - Research and analysis in cardiac health.
 
 ## Usage
-Clone the repository and run the provided Python script to simulate ECG signals. This simulator can be modified to test additional BPM rates or other ECG parameters.
+Clone the repository and run the provided [`ecg_simulator`](./ecg_simulator.py) file and then select any of the predefined options to simulate ECG signals. This simulator can be modified to test additional BPM rates or other ECG parameters. However, generating more accurate graph can lead to more usage of ram.
 
 ## Acknowledgments
 The `ecg_function` used in this simulator was inspired by concepts from a conference paper and references MATLAB's official ECG simulation code.
