@@ -1,6 +1,6 @@
 # Ecg_Simulator
 
-![Python based ECG Simulator](https://github.com/user-attachments/assets/acbbdae3-ff28-422d-b0c2-90fe5996c724)
+![Python based ECG Simulator](https://github.com/user-attachments/assets/e8a1f346-119e-4abe-a817-c3b80238f681)
 
 ## Overview
 This project presents a basic ECG Signal Simulator developed in Python, aimed at simulating normal ECG signals with variable beats per minute (BPM). ECG signal is an essential tool for studying and understanding different cardiac conditions. This python based simulator offers three different BPM rate options(70, 78, 120), allowing for flexible testing and analysis of ECG signal characteristics at various heart rates.
