@@ -65,7 +65,7 @@ ecg = p_wav_res + q_wav_res + qrs_wav_res + s_wav_res + t_wav_res + u_wav_res
 
 # Set up the plot for animation
 fig, ax = plt.subplots(figsize=(10, 6))
-ax.set_xlim(0, 5)
+ax.set_xlim(0, 3)
 y_min, y_max = np.min(ecg), np.max(ecg)
 ax.set_ylim(y_min - 0.2, y_max + 0.2) 
 ax.set_xlabel("Time")
