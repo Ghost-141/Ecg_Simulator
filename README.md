@@ -5,7 +5,7 @@ This project presents a basic ECG Signal Simulator developed in Python, aimed at
 
 ## Features
 - **Three BPM Rate Options:** Generate ECG signals at three preset heart rates, simulating normal, slow, and fast heart rates.
-- **Custom `ecg_function`:** Developed from a conference paper and inspired by the MATLAB code for ECG simulation available on the official website of MATLAB.
+- **Custom [`ecg_function`](./ecg_function.py):** Developed from a conference paper and inspired by the MATLAB code for ECG simulation available on the official website of MATLAB.
 - **Python Implementation:** Accessible, easy-to-use Python code suitable for educational and research purposes.
 
 ## Purpose
